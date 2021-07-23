@@ -1,0 +1,198 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="css/app.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background: white !important;
+            }
+            body section {
+                margin-bottom: 5rem !important;
+                margin-top: 5rem !important;
+            }
+
+
+            /* BANNER */
+            #banner {
+                height: 100vh;
+                background: url('img/bg-banner.png');
+                background-size: cover;
+                background-position: center bottom;
+                position: relative;
+                /* margin-top: -76.53px; */
+                max-height: 768px;
+            }
+            #banner .quote {
+                position: absolute;
+                top:50%;
+                transform:translateY(-50%);
+            }
+            #banner .matt {
+                position:absolute;
+                bottom:0;
+                right:0;
+                width: 528px;
+            }
+            @media (max-width: 768px) {
+                #banner .quote {
+                    z-index: 2;
+                }
+                #banner .matt {
+                    opacity: 0.8;
+                }
+
+                #testimonies .display-4,
+                #banner h1 {
+                    font-size: 2.5em !important;
+                    text-align: center !important;
+                }
+                #banner h3 {
+                    font-size: 1.5rem !important;
+                    text-align: center !important;
+                }
+                
+            }
+           
+
+            .matt {
+                width: 38%;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+            .works > div > .picture{
+                padding-top: 100%;
+                background-size: cover !important;
+                background-position: center !important;
+                position: relative;
+            }
+            .works > div > .picture > .overlay{
+                background: #f0a13950;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="http://127.0.0.1:8000/img/logo.png" class="img-fluid" width="170">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            
+    
+    <div class="" style="position: relative">
+        <div id="banner">
+            <div class="container">
+                <div class="row no-gutters quote">
+                    <div class="col-lg-6 text-right">
+                        <h1 class="display-3 text-light font-weight-bold text-uppercase" style="line-height: 0.8"> Therefore, if anyone is in Christ, <span class="text-primary">he is a new creation</span></h1>
+                        <h3 class="text-light">- 2 Corinthians 5:17</h3>
+                    </div>
+                </div>
+            </div>
+            <img class="img-fluid matt" src="img/matt.png" width="520">
+        </div>
+    </div>
+       
+
+    
+    <section >
+        <div class="row no-gutters">
+            <div class="col-lg-6 mx-auto">
+                <h1 class="text-primary text-center font-weight-bold text-uppercase mb-4" data-aos="fade-down">Matt's Works</h1>
+                <p class="text-center lead mb-5" data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sint, reprehenderit esse iste exercitationem nobis? Maiores, quia distinctio sit placeat cumque autem tenetur, dolorum magni repellat vero soluta, sequi ut.</p>
+            </div>
+        </div>
+        
+        <div class="row works no-gutters"  style="overflow:hidden">
+            <div class="col-md-4 mx-auto" data-aos="fade-left">
+                <div class="bg-secondary picture" style="background: url('img/works/1.jpg')">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-md-4 mx-auto" data-aos="fade-left">
+                <div class="bg-secondary picture" style="background: url('img/works/2.jpg')">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="col-md-4 mx-auto" data-aos="fade-left">
+                <div class="bg-secondary picture" style="background: url('img/works/3.jpeg')">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container-fluid h-75 bg-primary" style="background-image:url('img/bg-banner2.png');background-position:center;background-size:cover;position:relative;">
+        <div  style="position: absolute;bottom:0">
+            <div class="row my-3 no-gutters h-100" data-aos="fade-down">
+                <div class="d-none d-md-block col-md-2 col-lg-1 my-auto">
+                    <img class="img-fluid" src="img/play-button.png">
+                </div>
+                <div class="col-7 col-md-9 col-lg-7">
+                    <div class="ml-4">
+                        <h1 class="text-light font-weight-bold display-4 text-uppercase">Watch His Story</h1>
+                        <p class="lead text-light mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero magni nostrum minima sint voluptate, reiciendis perspiciatis natus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="testimonies" class="container-fluid h-100" style="background-image:url('img/matt3.png');background-position:center;background-size:cover;position:relative;">
+        <div >
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-5">   
+                    <h1 class="text-center text-primary text-uppercase font-weight-bold" data-aos="fade-down">Testimonies</h1>
+                    <div class="card bg-primary border-0 my-5" data-aos="fade-down">
+                        <div class="card-body p-5">
+                            <img class="img-fluid" src="img/quote.png" width="50">
+                            <h2 class="text-light display-4">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit odio pariatur tempore.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 700
+            });
+        </script>
+    </body>
+</html>
